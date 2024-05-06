@@ -60,7 +60,7 @@ const QueryExecutor = () => {
                 ]);
                 const timeOfExecution =
                   (new Date().getTime() - startTime) / 1000;
-                return `🥳  Fetcehed ${data.length} results in ${timeOfExecution} seconds`;
+                return `🥳  Fetched ${data.length} results in ${timeOfExecution} seconds`;
               },
             },
             pending: {
